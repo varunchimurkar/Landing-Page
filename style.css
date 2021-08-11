@@ -4,10 +4,14 @@ body {
 }
 
 .navbar {
-    background-color: black;
+    background-color: darkslategray;
     padding: 10px;
-    height: 60px;
+    height: 50px;
   
+}
+
+.nav-img {
+    margin-top: -15px;
 }
 
 .navbar-link {
@@ -20,10 +24,11 @@ body {
 
 .hero {
     height: 500px;
-    background: darkslateblue;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
     background: url(https://source.unsplash.com/1366x768/?event) no-repeat center;
     color:white ;
     text-align: center;
+    padding: 20px 0;
 }
 
 .row {
